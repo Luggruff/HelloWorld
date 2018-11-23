@@ -20,7 +20,7 @@ namespace HelloWorld
 
         void Button_Clicked(object sender, System.EventArgs e)
         {
-            DisplayAlert("Title", "Hello World!", "OK", "Cancel");
+            DisplayAlert("Hello World!", "You just clicked the button!", "OK", "Cancel");
         }
 
     }
